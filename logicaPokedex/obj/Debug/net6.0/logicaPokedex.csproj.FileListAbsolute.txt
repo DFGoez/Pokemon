@@ -1,0 +1,7 @@
+D:\Users\dfernandezg\Documents\C#\logicaPokedex\logicaPokedex\obj\Debug\net6.0\logicaPokedex.csproj.AssemblyReference.cache
+D:\Users\dfernandezg\Documents\C#\logicaPokedex\logicaPokedex\obj\Debug\net6.0\logicaPokedex.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\dfernandezg\Documents\C#\logicaPokedex\logicaPokedex\obj\Debug\net6.0\logicaPokedex.AssemblyInfoInputs.cache
+D:\Users\dfernandezg\Documents\C#\logicaPokedex\logicaPokedex\obj\Debug\net6.0\logicaPokedex.AssemblyInfo.cs
+D:\Users\dfernandezg\Documents\C#\logicaPokedex\logicaPokedex\obj\Debug\net6.0\logicaPokedex.csproj.CoreCompileInputs.cache
+D:\Users\dfernandezg\Documents\C#\logicaPokedex\logicaPokedex\obj\Debug\net6.0\logicaPokedex.MvcApplicationPartsAssemblyInfo.cs
+D:\Users\dfernandezg\Documents\C#\logicaPokedex\logicaPokedex\obj\Debug\net6.0\logicaPokedex.MvcApplicationPartsAssemblyInfo.cache
