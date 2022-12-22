@@ -305,11 +305,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\dfernandezg\\Documents\\C#\\logicaPokedex\\logicaPokedex\\logicaPokedex.csproj",
+      "projectUniqueName": "D:\\Users\\dfernandezg\\Documents\\C#\\Pokemon\\logicaPokedex\\logicaPokedex.csproj",
       "projectName": "logicaPokedex",
-      "projectPath": "D:\\Users\\dfernandezg\\Documents\\C#\\logicaPokedex\\logicaPokedex\\logicaPokedex.csproj",
+      "projectPath": "D:\\Users\\dfernandezg\\Documents\\C#\\Pokemon\\logicaPokedex\\logicaPokedex.csproj",
       "packagesPath": "D:\\Users\\dfernandezg\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\dfernandezg\\Documents\\C#\\logicaPokedex\\logicaPokedex\\obj\\",
+      "outputPath": "D:\\Users\\dfernandezg\\Documents\\C#\\Pokemon\\logicaPokedex\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "D:\\Users\\dfernandezg\\AppData\\Roaming\\NuGet\\NuGet.Config",

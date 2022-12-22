@@ -11,7 +11,7 @@ public class pokeApliClient
     {
         this.endPoint = URL;
     }
-    private String execute(String? id )
+    private String execute(String id = null )
     {
         if (id != null)
         {
@@ -32,21 +32,6 @@ public class pokeApliClient
             return null;
         }
     }
-
-    public Rootobject GetPokemon(String id)
-    {
-        String rest = this.execute(id);
-
-        if (rest != null)
-        {
-            return JsonConvert.DeserializeObject<Rootobject>(rest);
-        }
-        else
-        {
-            return null;
-        }
-    }
-
 
 }
 

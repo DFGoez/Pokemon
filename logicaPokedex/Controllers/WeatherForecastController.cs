@@ -6,28 +6,28 @@ namespace logicaPokedex.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
+        [HttpPost("pokemon")]
+        public String getPokemon(String id)
         {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
+          pokeApiClient api = new pokeApiClient("https://pokeapi.co/api/v2/pokemon/") ;                                     
+            return  api.execute(id);                                   
+        } 
 
-        private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        [HttpPost("species")]
+        public String getPokemonSpecies(String endPoint)
         {
-            _logger = logger;
+          pokeApiClient api = new pokeApiClient(endPoint) ;                                     
+            return  api.execute();                                   
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
+
+        [HttpPost("evolution")]
+        public String getPokemonEvolution(String endPoint)
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
+          pokeApiClient api = new pokeApiClient(endPoint);                                     
+            return  api.execute();                                   
         }
+
     }
 }
