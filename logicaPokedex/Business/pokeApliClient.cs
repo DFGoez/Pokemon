@@ -11,7 +11,7 @@ public class pokeApliClient
     {
         this.endPoint = URL;
     }
-    private String execute(String id = null )
+    public String execute(String id = null )
     {
         if (id != null)
         {

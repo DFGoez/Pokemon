@@ -1,5 +1,5 @@
 ﻿
-public class Rootobject
+public class PokemonRoot
 {
     public Ability[] abilities { get; set; }
     public int base_experience { get; set; }

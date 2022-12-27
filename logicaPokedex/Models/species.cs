@@ -1,5 +1,5 @@
 ﻿
-public class RootobjectSpecies
+public class SpeciesRoot
 {
     public int base_happiness { get; set; }
     public int capture_rate { get; set; }
