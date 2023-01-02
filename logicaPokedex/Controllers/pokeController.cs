@@ -27,9 +27,15 @@ namespace logicaPokedex.Controllers
 
 
         [HttpPost("evolution")]
-        public String getPokemonEvolution([FromBody] SpeciesRoot endPoint)
+        public String getPokemonEvolution([FromBody] RequestModel pokemon)
         {
-          pokeApliClient api = new pokeApliClient(endPoint.evolution_chain.url);                                     
+          pokeApliClient api = new pokeApliClient(pokemon.url);                                     
+            return  api.execute();                                   
+        }
+         [HttpPost("list")]
+        public String getPokemonList([FromBody] RequestModel pokemon)
+        {
+          pokeApliClient api = new pokeApliClient(pokemon.url);                                     
             return  api.execute();                                   
         }
 
