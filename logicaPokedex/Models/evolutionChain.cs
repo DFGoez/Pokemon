@@ -19,3 +19,4 @@ public class SpeciesEvolutionChain
     public string name { get; set; }
     public string url { get; set; }
 }
+

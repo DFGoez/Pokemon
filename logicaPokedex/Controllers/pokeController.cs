@@ -13,7 +13,7 @@ namespace logicaPokedex.Controllers
        [HttpPost("pokemon")]
         public String getPokemon([FromBody] RequestModel pokemon)
         {
-          pokeApliClient api = new pokeApliClient("https://pokeapi.co/api/v2/pokemon/") ;                                     
+          pokeApliClient api = new pokeApliClient("https://pokeapi.co/api/v2/pokemon/");                                     
             return  api.execute(pokemon.id);                                   
         }
 
@@ -27,9 +27,9 @@ namespace logicaPokedex.Controllers
 
 
         [HttpPost("evolution")]
-        public String getPokemonEvolution([FromBody] SpeciesRoot endPoint)
+        public String getPokemonEvolution([FromBody] RequestModel endPoint)
         {
-          pokeApliClient api = new pokeApliClient(endPoint.evolution_chain.url);                                     
+          pokeApliClient api = new pokeApliClient(endPoint.url);                                     
             return  api.execute();                                   
         }
 
