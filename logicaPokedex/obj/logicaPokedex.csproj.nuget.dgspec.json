@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\kgiraldoc\\Source\\Repos\\Pokemon\\logicaPokedex\\logicaPokedex.csproj": {}
+    "D:\\Users\\kgiraldoc\\source\\repos\\Pokemon\\logicaPokedex\\logicaPokedex.csproj": {}
   },
   "projects": {
-    "D:\\Users\\kgiraldoc\\Source\\Repos\\Pokemon\\logicaPokedex\\logicaPokedex.csproj": {
+    "D:\\Users\\kgiraldoc\\source\\repos\\Pokemon\\logicaPokedex\\logicaPokedex.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\kgiraldoc\\Source\\Repos\\Pokemon\\logicaPokedex\\logicaPokedex.csproj",
+        "projectUniqueName": "D:\\Users\\kgiraldoc\\source\\repos\\Pokemon\\logicaPokedex\\logicaPokedex.csproj",
         "projectName": "logicaPokedex",
-        "projectPath": "D:\\Users\\kgiraldoc\\Source\\Repos\\Pokemon\\logicaPokedex\\logicaPokedex.csproj",
+        "projectPath": "D:\\Users\\kgiraldoc\\source\\repos\\Pokemon\\logicaPokedex\\logicaPokedex.csproj",
         "packagesPath": "D:\\Users\\kgiraldoc\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\kgiraldoc\\Source\\Repos\\Pokemon\\logicaPokedex\\obj\\",
+        "outputPath": "D:\\Users\\kgiraldoc\\source\\repos\\Pokemon\\logicaPokedex\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

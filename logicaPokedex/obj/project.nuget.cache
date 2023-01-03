@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JNvXROECyrRgF2xlYFfyKkb948czgX+WhB8DEBr9rrRoUu4nAQcQH0YPCYRYoSrqKt2X2375tOjjqsGnopyA/A==",
+  "dgSpecHash": "AlwsH+XaYWGVIKbRsSOLE0qo1kgnHu6Pc8gD+lEC2hkr53S5HIYZYQwAS8/obEQVgQbfhGiJVbTLULPJ+0AAHg==",
   "success": true,
-  "projectFilePath": "D:\\Users\\kgiraldoc\\Source\\Repos\\Pokemon\\logicaPokedex\\logicaPokedex.csproj",
+  "projectFilePath": "D:\\Users\\kgiraldoc\\source\\repos\\Pokemon\\logicaPokedex\\logicaPokedex.csproj",
   "expectedPackageFiles": [
     "D:\\Users\\kgiraldoc\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "D:\\Users\\kgiraldoc\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
