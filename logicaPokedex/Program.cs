@@ -25,7 +25,7 @@ app.UseCors(x =>
     .AllowAnyMethod()
     ;
 });
-
+ 
 
 app.UseHttpsRedirection();
 

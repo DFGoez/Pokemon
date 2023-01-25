@@ -9,8 +9,10 @@ namespace logicaPokedex.Controllers
     [Route("api/[controller]")]
     public class pokeController : ControllerBase
     {
+        public bool vali;
+        
 
-       [HttpPost("pokemon")]
+        [HttpPost("pokemon")]
         public String getPokemon([FromBody] RequestModel pokemon)
         {
           pokeApliClient api = new pokeApliClient("https://pokeapi.co/api/v2/pokemon/");                                     
@@ -42,11 +44,37 @@ namespace logicaPokedex.Controllers
         }
 
         [HttpPost("moves")]
-        public string getPokemonMoves([FromBody] RequestModel pokemon)
+        public String getPokemonMoves([FromBody] RequestModel pokemon)
         {
             pokeApliClient api = new pokeApliClient("https://pokeapi.co/api/v2/move/");
 
             return api.execute(pokemon.id);
+        }
+
+        [HttpPost("listUsers")]
+        public void getListUsers(User user)
+        {
+            listUsers.users.Add(user);
+        }
+
+        [HttpPost("login")]
+        public bool getLogin(Loger loger)
+        {
+            if (listUsers.users != null)
+            {
+                for (int i = 0; i < listUsers.users.Count; i++)
+                {
+                    if (loger.UserName == listUsers.users[i].UserName && loger.Password == listUsers.users[i].Password)
+                    {
+                        vali = true;
+                    }
+                }
+            }
+            else
+            {
+                vali = false;
+            }
+            return vali;
         }
     }
 }
